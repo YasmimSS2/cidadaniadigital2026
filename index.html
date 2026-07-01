@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidadania Digital & IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Cidadania Digital & IA</h1>
+            <p>O Impacto das Deepfakes e da Desinformação na Sociedade</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#sobre">O Problema</a>
+        <a href="#como-identificar">Como Identificar</a>
+        <a href="#quiz-section">Desafio Interativo</a>
+        <a href="#boas-praticas">Boas Práticas</a>
+    </nav>
+
+    <main class="container">
+        
+        <section id="sobre" class="card">
+            <h2>O que são Deepfakes e Desinformação?</h2>
+            <p>Com o avanço da Inteligência Artificial, tornou-se extremamente fácil criar conteúdos falsos, mas que parecem perfeitamente reais. <strong>Deepfakes</strong> são vídeos, áudios ou imagens gerados por IA que substituem o rosto ou a voz de pessoas reais, simulando falas e ações que nunca aconteceram.</p>
+            <p>Quando essas tecnologias são usadas para espalhar mentiras em massa, temos a <strong>desinformação automatizada</strong>, um grave perigo para a democracia, a reputação das pessoas e a segurança digital.</p>
+        </section>
+
+        <section id="como-identificar" class="card">
+            <h2>Como Identificar Mídias Manipuladas por IA</h2>
+            <p>Fique atento aos seguintes detalhes para não ser enganado:</p>
+            <ul>
+                <li><strong>Piscadas não naturais:</strong> Rostos gerados por IA costumam piscar menos ou de forma estranha.</li>
+                <li><strong>Erros de iluminação:</strong> Sombras desalinhadas ou brilho estranho nos olhos e dentes.</li>
+                <li><strong>Áudio dessincronizado:</strong> A boca se move em um ritmo diferente do som da voz.</li>
+                <li><strong>Fundo distorcido:</strong> Linhas tortas, desfoques estranhos ou objetos que somem ao fundo do vídeo.</li>
+            </ul>
+        </section>
+
+        <section id="quiz-section" class="card">
+            <h2>Desafio Interativo: Você sabe detectar Fake News?</h2>
+            <p>Teste seus conhecimentos no nosso quiz rápido sobre cidadania digital!</p>
+            
+            <div id="quiz-container">
+                <div id="question-box">
+                    <p id="question-text">Carregando pergunta...</p>
+                    <div id="options-container"></div>
+                </div>
+                <div id="result-box" class="hidden">
+                    <p id="result-text"></p>
+                    <button onclick="restartQuiz()">Tentar Novamente</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="boas-praticas" class="card">
+            <h2>Guia de Boas Práticas na Internet</h2>
+            <ol>
+                <li><strong>Não compartilhe por impulso:</strong> Se a notícia causa muita indignação ou alegria, desconfie antes de repassar.</li>
+                <li><strong>Cheque a fonte:</strong> Procure a mesma notícia em portais de jornalismo confiáveis ou agências de checagem.</li>
+                <li><strong>Proteja seus dados:</strong> Evite postar fotos excessivas do seu rosto ou gravações longas da sua voz publicamente para diminuir o risco de clonagem por IA.</li>
+                <li><strong>Denuncie:</strong> Ao encontrar um deepfake nocivo, utilize as ferramentas de denúncia da própria rede social.</li>
+            </ol>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Projeto Escolar de Cidadania Digital. Desenvolvido para conscientização sobre IA.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
